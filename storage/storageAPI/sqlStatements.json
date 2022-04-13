@@ -1,0 +1,8 @@
+{
+    "getAll": ["select id, score, comment from scores"],
+    "insert": [
+        "insert into scores (id,score,comment)",
+        "values(?,?,?)"
+    ],
+    "primaryKey": "id"
+}
