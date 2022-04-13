@@ -1,0 +1,25 @@
+{
+    "host": "localhost",
+    "port": 3306,
+    "admin": "controller",
+    "adminpassword": "secret",
+    "user": "NpsUser",
+    "userpassword": "chDKaWlq",
+    "dropUser": true,
+    "debug": true,
+    "database": "npsdb",
+    "tables": [
+        {
+            "tableName": "scores",
+            "columns": [
+                "id integer not null primary key",
+                "score varchar(2) not null",
+                "comment varchar(96)"
+            ],
+            "data": [
+                [1, "9", "I liked your service"],
+                [2, "10", "I will recommend your service to my friends"]
+            ]
+        }
+    ]
+}
